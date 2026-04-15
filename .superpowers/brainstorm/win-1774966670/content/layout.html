@@ -1,0 +1,27 @@
+<h2>앱의 기본 레이아웃 구조</h2>
+<p class="subtitle">다양한 기능(시간표, 스터디 플래너, 프로필 등)을 어떤 구조로 배치할지 선택해주세요.</p>
+
+<div class="options">
+  <div class="option" data-choice="sidebar" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>사이드바 (Sidebar Menu)</h3>
+      <p>왼쪽에 메뉴가 고정되어 집중력이 요구되는 스터디 기능이나 세부 설정 접근에 유리합니다.</p>
+      <div style="margin-top: 10px; padding: 10px; background: var(--bg); border-radius: 4px; display: flex; gap: 10px;">
+         <div style="width: 30%; height: 50px; background: var(--border); border-radius: 4px;"></div>
+         <div style="width: 70%; height: 50px; background: var(--border); border-radius: 4px;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="option" data-choice="topbar" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>탑바 (Top Menu)</h3>
+      <p>상단에 메뉴가 있어 아래쪽 화면을 넓게 쓰기 좋으며, 시간표를 큼직하게 볼 때 적합합니다.</p>
+      <div style="margin-top: 10px; padding: 10px; background: var(--bg); border-radius: 4px; display: flex; flex-direction: column; gap: 10px;">
+         <div style="width: 100%; height: 15px; background: var(--border); border-radius: 4px;"></div>
+         <div style="width: 100%; height: 35px; background: var(--border); border-radius: 4px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
