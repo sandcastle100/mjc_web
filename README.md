@@ -1,6 +1,3 @@
-# mjc_web
-mjc web
-
 # Frontend
 React(19.2.4) / Vite(8.0.1) / 
 React Router DOM(7.13.2) / Axios(1.14.0) / 
